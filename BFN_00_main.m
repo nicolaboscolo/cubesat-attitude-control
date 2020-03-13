@@ -25,7 +25,7 @@ Gyro_Bypass_1 = Simulink.Variant('Gyro_Bypass==0');
 Gyro_Bypass_2 = Simulink.Variant('Gyro_Bypass==1');
 %--------------------------------------------------------------------------
 
-today_mjd2000 = now-7.304865000054932e+05; %Todays data in mjd2000 to make
+today_mjd2000 = now-7.304865000054932e+05; %Today data in mjd2000 to make
 %every simulation unique
 
 Jsc=[0.0333 0.0838 0.1037];%[kgm2], Spacecraft principle inertia terms
