@@ -17,3 +17,4 @@ AY: 2020
   a. BFN_02_Thrusters1.m plots results of (4)
 
 10.02.2020, Milan, Politecnico di Milano
+nicola.boscolo@mail.polimi.it
