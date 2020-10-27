@@ -1,1 +1,4 @@
-*.mat
+detumbl.mat
+slprj/
+fuuns/slprj/
+*.slxc
