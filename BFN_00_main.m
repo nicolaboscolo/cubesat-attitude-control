@@ -16,10 +16,10 @@ addpath('funs')
 
 
 %---------- Select if gyro simplification will be appiled----------
-Gyro_Bypass = 1;%1=bypass on reduces calculation time
+Gyro_Bypass = 1;%1=bypass ON reduces calculation time
 %0=gyro simulated -> calc time increases insanely due to
 %high noise freq and fast dynamics (integrator reduces time
-%step). Max 10sec recomended
+%step). Max 10sec of simulation recomended
 Gyro_Bypass_1 = Simulink.Variant('Gyro_Bypass==0');
 Gyro_Bypass_2 = Simulink.Variant('Gyro_Bypass==1');
 %--------------------------------------------------------------------------
